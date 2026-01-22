@@ -8,9 +8,9 @@ const Edit = ({navigation, route}) => {
     return (
         <View>
             <StatusBar/>
-            <Text>Card Name:</Text>
+            <Text>Fruit Name:</Text>
             <TextInput value={name} style={{borderWidth:1}} onChangeText={(text)=>setName(text)}/>
-            <Text>Card Pic URL:</Text>
+            <Text>Fruit Pic URL:</Text>
             <TextInput value={pic} style={{borderWidth:1}} onChangeText={(text)=>setPic(text)}/>
             <Text> </Text>
 
